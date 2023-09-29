@@ -1,0 +1,62 @@
+
+.h2{
+color: white;
+margin: 25px 500px 25px 170;
+   
+
+}
+
+.mission h2, p{
+   color: white;
+   margin-left: 170px;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   margin-right: 400px;
+  
+}
+
+.vission h2{
+    color: white;
+   margin-left: 170px;
+   letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 100px;
+    
+
+}
+
+.where h2{
+    color: white;
+    margin-left: 170px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+
+.about h2{
+    color: white;
+    margin-left: 170px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 100px;
+}
+
+.core h3{
+    color: white;
+    margin-left: 170px;
+    letter-spacing: 1px;
+    line-height: 1.6; 
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+
+}
+
+.circle{
+    color: white;
+    margin-left: 170px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    
+}
+

@@ -1,0 +1,209 @@
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image:url("/images/backgrnd.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+li, a, button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    
+
+}
+
+img{
+    width: 100px;
+    height: 90px;
+    
+}
+
+.caruur{
+    transform: rotate(40deg); /* rotate the image in 25 degrees */
+    opacity: 2.5;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-bar{
+    list-style: none;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-bar li a:hover {
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(34, 83, 50);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 10%;
+    
+}
+.container .qoraalka{
+    margin-right: 300px;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.container .qoraalka h1{
+    margin-bottom: 25px;
+    margin-right: -20px;
+    margin-left: 60px;
+    font-size: 35px;
+    
+}
+
+.p-qoraal{
+    margin-bottom: 25px;
+    margin-right: -10px;
+    font-size: 22px;
+    color:white;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-left: 60px;
+}
+
+.container .objectives{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    color: yellow;
+
+}
+
+.qoraalka ol li{
+    margin-left: 70px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.container img{
+    margin-top: 100px;
+    width: 450px;
+    height: 420px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.container img:hover{
+   transform: scale(1.3);
+   z-index: 2;
+    
+}
+
+footer{
+    background-color: #111;
+}
+
+.footercontainer{
+width: 100%;
+padding: 70px 30px 10px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(6, 1, 134);
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.socialicons p {
+    color:rgb(241, 241, 244);
+    margin-top: 30px;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+
+.core ul li{
+    display:flex ;
+    border-width: 200px;
+    border-color: green;
+    color: white;
+    font-size: 16px;
+}
+
+.qaybtahoose{
+    color: white;
+    margin-left: 230px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    margin-right: -10px;
+}
+
+
+body {
+    animation: slideFromLeft 2s ease-in-out;
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+
+
+
