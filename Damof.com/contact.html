@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -30,7 +31,11 @@
   <body>
     <section class="contact">
       <form>
-        <input type="button" value="Go back!" onclick="history.back()" />
+        <input
+          type="button"
+          value="Go back!"
+          onclick="window.location.href = 'index.html';"
+        />
       </form>
       <div class="content">
         <h2>Contact Us</h2>
@@ -71,7 +76,7 @@
           </div>
         </div>
         <div class="contactForm">
-          <form>
+          <form id="contactForm">
             <h2>Send Message</h2>
             <div class="inputBox">
               <input type="text" name="fullname" required="required" />
@@ -92,5 +97,35 @@
         </div>
       </div>
     </section>
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // Prevent the default form submission
+
+          // Validate the form fields here
+          const name = this.querySelector('input[name="fullname"]').value;
+          const email = this.querySelector('input[name="email"]').value;
+          const message = this.querySelector('textarea[name="message"]').value;
+
+          // Check if the fields are not empty
+          if (
+            name.trim() === "" ||
+            email.trim() === "" ||
+            message.trim() === ""
+          ) {
+            alert("Please fill in all required fields.");
+            return;
+          }
+
+          // You can add additional validation here if needed
+
+          // Display a confirmation message
+          alert("Your message has been sent. Thank you!");
+
+          // Reset the form (optional)
+          this.reset();
+        });
+    </script>
   </body>
 </html>
